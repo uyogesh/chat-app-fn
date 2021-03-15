@@ -1,0 +1,31 @@
+.chat-area {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.chat-header {
+    border: 1px solid #000;
+}
+
+.chat-body {
+    flex: 1;
+    background-color: aquamarine;
+    min-height: 500px;
+    overflow-y: scroll;
+}
+
+.chat-input {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.text-input {
+    flex: 10;
+    margin: 0px;
+}
+.chat-submit{
+    flex: 1;
+    padding: 10px;
+}

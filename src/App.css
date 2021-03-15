@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body, p, a, div, h4, input {
+  font-family: 'Lato', sans-serif;
+}
 .App {
   text-align: center;
+  height: 100vh;
 }
 
 .App-logo {
@@ -13,9 +19,9 @@
   }
 }
 
-.App-header {
+.App-header, .App-body {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;

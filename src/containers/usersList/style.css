@@ -1,0 +1,33 @@
+.user-container {
+    height: 100vh;
+    width: 100vw;
+}
+
+.user-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5em 10%;
+}
+
+.user-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px 10px;
+    background-image: linear-gradient(#FFF, #CCC);
+    border-radius: 10px;
+    margin: 10px 20px;
+    min-width: 100px;
+    transition: all 0.2s ease-in;
+}
+
+.user-item:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+
+}
+.user-name {
+    margin: 0px;
+}
